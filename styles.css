@@ -1,0 +1,31 @@
+body {
+    margin: 0px;
+    background-color: rgb(6, 6, 6);
+}
+
+#contenedor-principal {
+    margin: 0px 100px;
+    padding: 20px 0px;
+    background-color: white;
+}
+
+h1, h2 {
+    text-align: center;
+    margin: 0px;
+}
+
+#categorias {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.categoria {
+    width: 30%;
+    text-align: center;
+}
+
+.categoria img {
+    width: 100%;
+}
+
